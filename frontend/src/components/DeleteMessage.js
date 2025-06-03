@@ -16,7 +16,7 @@ const DeleteMessage = () => {
     }
 
     try {
-      const res = await fetch("http://localhost:5000/api/delete", {
+      const res = await fetch("https://slackify-messenger-backend.onrender.com/api/delete", {
         method: "delete",
         headers: {
           Authorization: `Bearer ${token}`,
