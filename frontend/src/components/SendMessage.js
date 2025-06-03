@@ -15,7 +15,7 @@ const SendMessage = () => {
     }
 
     try {
-      const res = await fetch("http://localhost:5000/api/send", {
+      const res = await fetch("https://slackify-messenger-backend.onrender.com/api/send", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
