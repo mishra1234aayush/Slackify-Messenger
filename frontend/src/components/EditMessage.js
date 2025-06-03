@@ -16,7 +16,7 @@ const EditMessage = () => {
     }
 
     try {
-      const res = await fetch("http://localhost:5000/api/edit", {
+      const res = await fetch("https://slackify-messenger-backend.onrender.com/api/edit", {
         method: "put",
         headers: {
           Authorization: `Bearer ${token}`,
