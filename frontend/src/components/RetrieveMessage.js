@@ -16,7 +16,7 @@ const RetrieveMessage = () => {
 
     try {
       const res = await fetch(
-        `http://localhost:5000/api/messages?channel=${channel}`,
+        `https://slackify-messenger-backend.onrender.com/api/messages?channel=${channel}`,
         {
           method: "GET",
           headers: {
