@@ -1,0 +1,37 @@
+/* src/components/SendMessage.css */
+
+.send-container {
+  background-color: #2d2d2d;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.send-input,
+.send-textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: none;
+}
+
+.send-textarea {
+  height: 80px;
+}
+
+.send-button {
+  padding: 10px 20px;
+  background-color: #4a154b;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.send-response {
+  margin-top: 10px;
+  font-weight: bold;
+}
