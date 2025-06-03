@@ -21,7 +21,7 @@ const ScheduleMessage = () => {
       if(unixTime <= Math.floor(Date.now() / 1000)){ alert("Please select a future time to schedule message.");}
 
       else{
-      const res = await fetch("http://localhost:5000/api/schedule", {
+      const res = await fetch("https://slackify-messenger-backend.onrender.com/api/schedule", {
         method: "POST",
         headers: {
           Authorization: `Bearer ${token}`,
